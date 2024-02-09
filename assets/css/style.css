@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+nav img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+nav span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #666;
+} */
+
+
+/* Simulate content below the fixed navbar */
+.content {
+  padding: 60px 20px 20px;
+}
+
+/* Modal styles */
+.modal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.8);
+z-index: 999;
+}
+
+.modal-content {
+background-color: #fff;
+width: 80%;
+max-width: 600px;
+margin: 2rem auto;
+padding: 1rem;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* Center content horizontally */
+}
+
+/* Close button */
+.close {
+position: absolute;
+top: 10px;
+right: 10px;
+cursor: pointer;
+}
+
+/* Table-like layout */
+.table {
+display: table;
+width: 100%;
+margin-top: 10px;
+}
+
+.table-row {
+display: table-row;
+}
+
+.table-cell {
+display: table-cell;
+padding: 10px;
+}
+
+.step-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+

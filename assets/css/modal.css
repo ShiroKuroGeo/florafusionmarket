@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Simulate content below the fixed navbar */
+.content {
+    padding: 60px 20px 20px;
+}
+
+/* Modal styles */
+.modal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.8);
+z-index: 999;
+}
+
+
+
+/* Table-like layout */
+.table {
+display: table;
+width: 100%;
+margin-top: 10px;
+}
+
+.table-row {
+display: table-row;
+}
+
+.table-cell {
+display: table-cell;
+padding: 10px;
+}
+
+.step-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

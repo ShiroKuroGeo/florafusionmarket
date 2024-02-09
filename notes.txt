@@ -1,0 +1,45 @@
+need to fix
+CUSTOMER AND SELLER
+- plants 
+* after checkout ang plant nga ge order maclick balik ang plant sa cart - fix 
+* add alert if plant already i wishlist or cart - fix
+* reviews in plants dapat sa specific ra nga plants review sya makita - fix 
+* ang cart sa wishlist way function padung cart - fix
+- purchase hitory
+* change the image and name in the rating modal dapat plant image ug plant name naka butang - fix
+- home best selling store
+* dapat 3 ray mo maximum ma display - fix
+* ma display ang best store if taas ang ratings sa tanan plants sa seller - fix 
+-chats
+* profile sa customer and seller 
+* adjust the border -fix
+- order
+* dapat inig order na makuhaan ang stocks sa plant nga gipalit - fix
+
+
+add frontend
+both customer and seller
+- cart 
+* shopname inig click deretso sa seller profile - fix 
+* by seller ang cart 
+-order tracker
+* all change - fix 
+- purchase history
+* add plant image and plant name - fix 
+seller
+- order
+* add buttons packed, to ship, to recieve, delivered - fix
+* change also the status - fix
+* add plant image in table - fix
+
+admin 
+*fix inventory
+*fix seller
+*fix dashboard
+*fix sold history
+
+
+
+
+
+
